@@ -1,0 +1,37 @@
+<div id="header">
+	<nav id="main-nav">
+		<ul class="text-center">
+			<a ui-sref=".eclass">
+				<li class="list-items">
+					<div id="eclass-icon"></div>
+					e-class 
+				</li> 
+			</a>
+			<a ui-sref=".venus"> 
+				<li class="list-items">
+					<div id="venus-icon"></div>
+			 	</li>
+			 </a>
+			<a ui-sref=".webmail"> 
+				<li class="list-items"> 
+					<div id="webmail-icon"></div> 
+					web mail 
+				</li> 
+			</a>
+		</ul>
+	</nav>
+	<nav id="top-nav" class="hidden-xs">
+		<a ui-sref="home.main"> <div class="text-center" id="nexusLogo"> AuebNexus </div> </a>
+		<a href="#/logout"><div class="power"></div></a>
+		<a ui-sref="home.profile"><div class="settings"></div></a>
+		<div class="welcome"><h6>Welcome, Hal 9000! </h6></div>
+	</nav>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+	<!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+    <div ui-view></div>
+
+</div>

@@ -1,0 +1,76 @@
+<div class="main">
+	<div class="page-header text-center">
+		<h1><span class="fa fa-anchor"></span> Profile Page</h1>
+		<a href="/logout" class="btn btn-default btn-sm">Logout</a>
+	</div>
+
+	<div class="row">
+
+		<!-- LOCAL INFORMATION -->
+		<div class="col-sm-6">
+			<div class="well">
+				<h3><span class="fa fa-user"></span> Local</h3>
+
+					<p>
+						<strong>id</strong>: {{user.id}}<br>
+						<strong>username</strong>: {{user.nexus.username}}<br>
+						<strong>password</strong>: {{user.nexus.password}}
+					</p>
+
+			</div>
+		</div>
+
+		<!-- ECLASS INFORMATION -->
+		<div class="col-sm-6">
+			<div class="well">
+				<h3><span class="fa fa-user"></span> E-class</h3>
+
+					<p>
+						<strong>id</strong>: {{user.id}}<br>
+						<strong>username</strong>: {{user.eclass.username}}<br>
+						<strong>password</strong>: {{user.eclass.password}}
+					</p>
+
+				<a class="btn btn-danger">Unlink</a>
+			</div>
+		</div>
+
+	<div class="row">
+
+		<!-- VENUS INFORMATION -->
+		<div class="col-sm-6">
+			<div class="well">
+				<h3><span class="fa fa-user"></span> Venus</h3>
+
+					<p>
+						<strong>id</strong>: {{user.id}}<br>
+						<strong>username</strong>: {{user.venus.username}}<br>
+						<strong>password</strong>: {{user.venus.password}}
+					</p>
+
+				<a href="/link/venus" class="btn btn-warning">Link</a>
+
+			</div>
+		</div>
+
+		<!-- WEBMAIL INFORMATION -->
+		<div class="col-sm-6">
+			<div class="well">
+				<h3><span class="fa fa-user"></span> Web Mail</h3>
+
+					<p>
+						<strong>id</strong>: <!-- {{user.id}} --><br>
+						<strong>username</strong>: <!-- {{user.mail.username}} --><br>
+						<strong>password</strong>:<!--  {{user.mail.password}} -->
+					</p>
+
+				<a href="/link/webmail" class="btn btn-primary">Link</a>
+
+			</div>
+		</div>
+
+	</div>
+
+	</div>
+
+</div>

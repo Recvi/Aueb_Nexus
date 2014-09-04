@@ -1,0 +1,174 @@
+.no-margin-bottom {
+	margin-bottom: 0px;
+}
+
+.full-screen {
+	padding: 0px;
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+}
+
+.extras {
+	padding: 0px;
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+}
+
+.main {
+	margin-left: 110px;
+}
+
+.mainstream-background {
+	background-color: #EEE;
+}
+
+/* Navigation Bars */
+#main-nav {
+	background: none repeat scroll 0% 0% #2A2A2A;
+	height: 100%;
+	position: fixed;
+	width: 110px;
+	list-style-type: none;
+	color: #6FC5FF;
+	z-index: 2147483647;
+	font-size: 17px;
+}
+
+#top-nav {
+	background: none repeat scroll 0% 0% #2A2A2A;
+	left: 0px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	height: 50px;
+	z-index: 99999999;
+}
+
+.list-items {
+	padding-top: 30px;
+	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#nexusLogo {
+	background-color: #6FC5FF;
+	padding: 14px;
+	width: 110px;
+	margin: 0px;
+	color: black;
+	display: inline-block;
+}
+
+#nexusLogo:hover {
+	background-color: #7DCBFF;
+}
+
+#top-nav a {
+	text-decoration: none;
+	color: black;
+}
+
+#top-nav ul li:hover {
+	/*background-color: #7DCBFF;*/
+}
+
+#header ul {
+	list-style: none outside none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#main-nav ul a {
+	text-decoration: none;
+	color: #6FC5FF;
+}
+
+#main-nav ul li:hover {
+	background-color: black;
+}
+
+.power {
+	background: url('images/power-off.png') no-repeat; 
+	display: inline-block;
+	float: right;
+	height: 45px;
+	width: 45px;
+	/*position: relative;*/
+}
+
+.power:hover {
+	background-image: url('images/power-on.png');
+}
+
+.settings {
+	background: url('images/settings.jpg') no-repeat; 
+	display: inline-block;
+	float: right;
+	height: 45px;
+	width: 45px;
+}
+
+.settings:hover {
+	background-image: url('images/settings2.jpg');
+}
+
+.welcome {
+	margin-top: 10px;
+	margin-right: 20px;
+	display: inline-block;
+	float: right;
+	color: #B2B2B2;
+}
+
+#webmail-icon {
+	background: url('images/webmail.png') no-repeat; 
+	display: block;
+	height: 31px;
+	width: 40px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 10px;
+}
+
+#venus-icon {
+	background: url('images/venus.png') no-repeat; 
+	display: block;
+	height: 23px;
+	width: 100px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 19px;
+	margin-top: 19px;
+}
+
+#eclass-icon {
+	background: url('images/eclass.png') no-repeat; 
+	display: block;
+	height: 40px;
+	width: 39px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 5px;
+}
+
+/*** Footer ***/
+ .footerDiv, .footerDiv p {
+    background-color: #222;
+    width: 100%;
+    height: 70px;
+    margin: 0px;
+    display: block;
+    text-align: center;
+    line-height: 100%;
+    position: fixed;
+    z-index: 99999999;
+}
+#info {
+    color: #6FC5FF;
+    font-family: Cambria, Georgia, serif;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}

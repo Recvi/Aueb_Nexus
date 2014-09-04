@@ -1,0 +1,22 @@
+<div class="main">
+    <h1>E-Class</h1>
+    <!-- First Column: Latest News  -->
+	<div class="col-md-7">
+    <h3><u>Ανακοινώσεις</u></h3>
+    <div ng-repeat="post in posts"></div>
+	</div>
+
+	<!-- Second Column: The rest -->
+	<div class="col-md-5">
+		<div>
+			<h3><u>Διορίες</u></h3>
+			<div ng-repeat="deadline in deadlines"></div>
+		</div>
+
+		<div>
+			<h3><u>Τα μαθήματά μου</u></h3>
+			<div ng-repeat="course in courses"></div>
+		</div>
+		
+	</div> 
+</div>

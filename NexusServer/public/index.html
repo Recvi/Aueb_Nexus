@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CSS (bootsrap) -->
+	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="mycss.css">
+	<link rel="stylesheet" href="font-awesome-4.1.0/css/font-awesome.min.css">
+	<style>
+        .navbar { border-radius:0; }
+        body { font-family: "Open Sans"; font-size: 15px; }
+    </style>
+	<!--JS (angular, ui-router, custom js) -->
+	<script type="text/javascript" src="angular.js"></script>
+	<script type="text/javascript" src="ui-router-master/release/angular-ui-router.min.js"></script>
+	<script src="app.js"></script>
+</head>
+
+<body ng-app="routerApp" class="mainstream-background">
+
+<!-- MAIN CONTENT -->
+<div class="container full-screen">
+
+	<!-- THIS IS WHERE WE WILL INJECT OUR CONTENT ============================== -->
+    <div ui-view></div>
+
+</div>
+
+</body>
+
+</html>

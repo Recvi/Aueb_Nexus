@@ -1,0 +1,30 @@
+
+<div id="header">
+	<nav id="top-nav">
+		<a ui-sref="home.main"> <div class="text-center" id="nexusLogo"> AuebNexus </div> </a>
+	</nav>
+</div>
+
+<div class="container extras mainstream-background">
+	<div class="text-center">
+		<h1>Welcome to AUEB Nexus!</h1>
+		<p>Login or Register with: </p>
+
+		<a ui-sref="welcome.nexus-login" class="btn btn-primary"><span class="fa fa-user"></span> Nexus Login</a>
+		<a ui-sref="welcome.eclass-login" class="btn btn-danger"><span class="fa fa-user"></span> Eclass Login</a>
+		<a ui-sref="welcome.venus-login" class="btn btn-warning"><span class="fa fa-user"></span> Venus Login</a>
+		<a ui-sref="welcome.signup" class="btn btn-default"><span class="fa fa-user"></span> Register </a>
+	</div>
+
+	<div ui-view></div>
+
+</div>
+
+<footer>
+    <div class="footerDiv navbar-fixed-bottom">
+        <p id="info">
+            Nexians &copy 2014
+            <br>email: getAllTheGirls@nexus.com
+        </p>
+    </div>
+</footer>
