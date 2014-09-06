@@ -18,8 +18,8 @@ var express = require('express'),
     flash = require('connect-flash'),
 
     // scraper modules.
-    // request = require('request'),
-    // cheerio = require('cheerio');
+    request = require('request'),
+    cheerio = require('cheerio');
 
     configDB = require('./config/database.js'); // load db configuration.
 
