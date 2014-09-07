@@ -1,0 +1,9 @@
+# Sublime automatically created files #
+#######################################
+*.sublime-project
+*.sublime-workspace
+
+# Vim automatically created files #
+###################################
+*~
+.vimrc
