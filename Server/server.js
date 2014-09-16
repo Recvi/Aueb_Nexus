@@ -23,7 +23,6 @@ var express = require('express'),
 
     configDB = require('./config/database.js'); // load db configuration.
 
-
 // configuration ===============================================================
 var db_connection = mysql.createConnection({
     host: configDB.host,
